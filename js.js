@@ -30,13 +30,11 @@ function bubbleSort(Maxtal) {
     } while (swapped);
     return Maxtal;
 }
-
-console.log(bubbleSort(Maxtal.slice()));
-//sorterad.innerHTML = "Your sorted array list is: " + bubbleSort(Maxtal.slice());
+bubbleSort(Maxtal.slice());
 
 text = "<ul>";
 for (i = 0; i < Maxtal.length; i++) {
-    text += "<li>" + bubbleSort(Maxtal.slice()) + "</li>";
+    text += "<li>" + Maxtal[i] + "</li>";
 }
 text += "</ul>";
 
