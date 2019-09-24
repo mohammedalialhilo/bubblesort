@@ -31,6 +31,8 @@ function bubbleSort(Maxtal) {
     return Maxtal;
 }
 bubbleSort(Maxtal.slice());
+console.log(bubbleSort(Maxtal));
+//sorterad.innerHTML = "Your sorted array list is: " + bubbleSort(Maxtal.slice());
 
 text = "<ul>";
 for (i = 0; i < Maxtal.length; i++) {
