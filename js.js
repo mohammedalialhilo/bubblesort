@@ -8,7 +8,7 @@ while (Maxtal.length < 1000) {
 
 }
 //document.write(Maxtal);
-listar.innerHTML = Maxtal.toString();
+listar.innerHTML = "Your array list numbers are: " + Maxtal.toString();
 console.log(Maxtal);
 
 function swap(Maxtal, i, j) {
@@ -32,3 +32,4 @@ function bubbleSort(Maxtal) {
 }
 
 console.log(bubbleSort(Maxtal.slice()));
+sorterad.innerHTML = "Your sorted array list is:" + bubbleSort(Maxtal.slice());

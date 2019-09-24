@@ -3,7 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background: #88d5e9;*/
+    background: #88d5e9;
     color: #333;
     font-family: "calibri", sans-serif;
     font-weight: 400;
@@ -15,18 +15,10 @@ body {
     text-align: center;
     padding: 2rem;
     border-radius: 7px;
-    /*background-color: #333;*/
     max-width: 80%;
 }
 
-.sortedList {
-    max-width: 80%;
-    border: 5rem #333;
-    color: blue;
-}
-
-.displayOutput {
-    max-width: 80%;
-    border: 5rem #333;
+p {
+    border: 5rem #fff;
     color: blue;
 }
