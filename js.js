@@ -4,11 +4,11 @@ const Maxtal = new Array();
 
 let lista = [Maxtal];
 while (Maxtal.length < 1000) {
-    Maxtal.push(Math.floor(Math.random() * 1000000) + 1);
+    Maxtal.push(Math.round(Math.random() * 1000000) + 1);
 
 }
 //document.write(Maxtal);
-listar.innerHTML = "Your array list numbers are: " + Maxtal.toString();
+
 console.log(Maxtal);
 
 function swap(Maxtal, i, j) {
@@ -32,4 +32,12 @@ function bubbleSort(Maxtal) {
 }
 
 console.log(bubbleSort(Maxtal.slice()));
-sorterad.innerHTML = "Your sorted array list is:" + bubbleSort(Maxtal.slice());
+//sorterad.innerHTML = "Your sorted array list is: " + bubbleSort(Maxtal.slice());
+
+text = "<ul>";
+for (i = 0; i < Maxtal.length; i++) {
+    text += "<li>" + bubbleSort(Maxtal.slice()) + "</li>";
+}
+text += "</ul>";
+
+sorterad.innerHTML = text;

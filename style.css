@@ -3,11 +3,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #88d5e9;
     color: #333;
     font-family: "calibri", sans-serif;
     font-weight: 400;
-    text-transform: capitalize;
     max-width: 100vh;
 }
 
